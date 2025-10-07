@@ -1,4 +1,5 @@
 print("Arcane Academia Results")
+cal_avg = [] #caculated average
 # Part one: Collecting and validating informations
 while True:
     first_note_str = input("Type your first note or 'exit' to quit: ").strip().lower()
@@ -10,17 +11,20 @@ while True:
     # Part two: Convert and calculate
     first_note = float(first_note_str)
     second_note = float(second_note_str)
-    media = (first_note + second_note) / 2
-    print(f"The average is {media:.2f}")
-    # Part three:
-    if media >= 7:
-        print(f"{media:.2f} - status *Approved*, congratulations")
-    elif media >= 5:
-        print(f"{media: .2f} - status *Not approved*, but you can still try again!")
+    average = (first_note + second_note) / 2
+    cal_avg.append(average) #section added further on studies
+    print(f"The average is {average:.2f}")
+    # Part three - the conditions to run the math
+    if average >= 7:
+        print(f"{average:.2f} - status *Approved*, congratulations")
+    elif average >= 5:
+        print(f"{average: .2f} - status *Not approved*, but you can still try again!")
     else:
         print (f"*Not Approved*, no more chances this year.")
     print("-" * 30)
 # -- End of the loop here.
 # - This code should run after 'break' triggered.
+print(f"\n{"-" * 5} Final record {"-" * 5}")
+print(f"Recorded averages: {cal_avg}")
 print("Thank you")
 print("Goodbye")

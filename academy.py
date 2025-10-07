@@ -13,10 +13,6 @@ while True:
     second_note = float(second_note_str)
     average = (first_note + second_note) / 2
     cal_avg.append(average) #section added further on studies
-    sum(cal_avg)
-    len(cal_avg)
-    max(cal_avg)
-    min(cal_avg)
     print(f"The average is {average:.2f}")
     # Part three - the conditions to run the math
     if average >= 7:
@@ -27,8 +23,6 @@ while True:
         print (f"Not Approved, no more chances this year.")
     print("-" * 30)
 # -- End of the loop here.
-yes = True
-no = False
 more_details_str = input("Do you want to see more details? {Yes} to continue or {No} to exit?\nType your answer: ").strip().lower()
 if more_details_str == 'yes':
     print(f"\n==Full report==\nSum of averages: {sum(cal_avg)}\nLenght of averages: {len(cal_avg)}\nMaximum note: {max(cal_avg)}\nMinimum note: {min(cal_avg)}")

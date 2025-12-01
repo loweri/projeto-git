@@ -1,5 +1,14 @@
 #rabiscos e rascunhos, jogo em # depois que testar (vem debaixo pra cima)
 
+#
+################################################################################
+# global_level = 10
+# def test_scope():
+#     local_life = 100
+#     print(global_level,local_life)
+# test_scope()
+# print(f"\n{local_life}")
+################################################################################
 # armas = {
 #     "Espada Mágica Dusk 6x": 60,
 #     "Machados Dusk 6x": 60,
@@ -16,8 +25,10 @@
 # print(f"\nE por fim vou jogar só os níveis:")
 # for nivel in armas.values():
 #     print(nivel)
+################################################################################
 # CTRL K E DEPOIS CTRL C PARA ADICIONAR # EM TRECHOS SELECIONADOS
 # CTRL K E DEPOIS CTRL U PARA REMOVER
+################################################################################
 #for numero in [10, 20, 30]:
 #    print(numero)
 #aqui eu entendi um pouco melhor como funciona o for, bem simples

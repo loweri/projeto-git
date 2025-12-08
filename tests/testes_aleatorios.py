@@ -2,6 +2,20 @@
 
 #
 ################################################################################
+# lista_exemplo = ["Cão","Gato","Papagaio","Touro"]
+# print(f"Lista inicial: {lista_exemplo}")
+# lista_exemplo[0] = "Cachorro"
+# print(f"=======\n Substitui: {lista_exemplo}")
+# lista_exemplo.append("Capivara")
+# print(f"=======\n Adição de 1: {lista_exemplo}")
+# print(f"=======\n Só o da pos. 04: {lista_exemplo[4]}")
+# lista_exemplo.count(2)
+# lista_exemplo.pop(2)
+# print(f"=======\n Removido o da pos. 02: {lista_exemplo}")
+# lista_exemplo.insert(0,"Leão")
+# print(f"=======\n Inserido no inicio: {lista_exemplo}")
+#
+################################################################################
 # global_level = 10
 # def test_scope():
 #     local_life = 100

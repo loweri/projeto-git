@@ -8,10 +8,20 @@ def require_level():
     while True:
         try:
             add_level = int(input("Your current level: "))
-            break
+            if add_level >= 0:
+                break
+            else:
+                print("Must be zero or higher.")
         except ValueError:
             print("Only numbers are accepted, try again")
     return add_level
+def show_selection3(roster_guild):
+    print("Now showing the details of the guild members!")
+    for members in roster_guild:
+        print(f"Here we have {members["Name"]}!")
+        print(f"And the current level {members["Level"]}!")
+        print(f"To finish, the class: {members["Class"]}!")
+        print(f"{40 * "="}")
 print("Welcome, adventurer!\n" \
 "You are at the HellFire Mage's Guild.\n" \
 "Bellow you'll find all the options available!")
@@ -40,7 +50,7 @@ while True:
             print("Invalid number, try again")
 ## pausa aqui, preciso atualizar o menu 2 pra visualmente mostrar as informações melhor, e também pra percorrer a lista com um FOR
     elif selection == 2:
-        print(roster_guild)
+        show_selection3(roster_guild)
         selection3 = int(input("What's next?\n1. Go back to menu\n" \
         "2. Exit\n Please choose an option: "))
         if selection3 == 1:

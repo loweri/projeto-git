@@ -1,6 +1,27 @@
 #rabiscos e rascunhos, jogo em # depois que testar (vem debaixo pra cima)
-
 #
+
+###############################################################################
+# def showname(lista):
+
+#     name_qt = len(lista)
+
+#     return name_qt
+
+# lista = ["goku", "gohan", "kuririn", "vegeta", "freeza"]
+
+# print(showname(lista))
+###############################################################################
+# new_list = ["restart", "fresno", "nxzero"] 
+# new_dict = {"banda_de_rock": "avenged_sevenfold", "banda_emo": "my_chemical_romance"}
+# print(new_list[1])
+# print(new_dict["banda_de_rock"])
+# print("debug line, skip.")
+# for bandas in new_list:
+#     print(bandas)
+# print("debug line, skip.")
+# for key,value in new_dict.items():
+#     print(key, value)
 ################################################################################
 # lista_exemplo = ["Cão","Gato","Papagaio","Touro"]
 # print(f"Lista inicial: {lista_exemplo}")
